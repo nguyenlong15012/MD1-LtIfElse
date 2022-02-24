@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="s1"></h1>
+<script>
+    let a = prompt('What is the “official” name of JavaScript?');
+
+    if(a == 'ECMAScript'){
+        // alert('Right');
+        document.getElementById('s1').innerHTML='Right';
+    }else {
+        // alert('Didn’t know? ECMAScript');
+        document.getElementById('s1').innerHTML='Didn’t know? ECMAScript';
+    }
+</script>
+</body>
+</html>
